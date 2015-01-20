@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    <Folders>
+        <Folder>
+            <Title>Features Comparison</Title>
+            <Description>
+Contain the code comparison for features in Apache POI HSMF SDK and Aspose.Email
+These examples are helpful for developers who want to compare Apache POI with Aspose OR migrate from Apache POI to Aspose.
+            </Description>
+            <FolderName>featurescomparison</FolderName>
+            <Order>1</Order>
+            <Folders>
+                <Folder>
+                    <Title>Working with Emails</Title>
+                    <Description>This folder contain the examples to deal with Emails.</Description>
+                    <FolderName>workingwithemails</FolderName>
+                    <Order></Order>
+                    <Examples>
+                        <Example>
+                            <Title>Load Email Message</Title>
+                            <Description>How to load Email messages.</Description>
+                            <FolderName>loademailmessages</FolderName>
+                            <Order>1</Order>
+                            <InputFiles>
+                                <DataFile>
+                                    <Path>..\data\message.msg</Path>
+                                </DataFile>
+                                <DataFile>
+                                    <Path>..\data\message.eml</Path>
+                                </DataFile>
+                            </InputFiles>
+                            <Type>Console</Type>
+                        </Example>
+                        <Example>
+                            <Title>Save Email Message</Title>
+                            <Description>How to save Email messages.</Description>
+                            <FolderName>saveemailmessages</FolderName>
+                            <Order>2</Order>
+                            <InputFiles>
+                                <DataFile>
+                                    <Path>..\data\message.msg</Path>
+                                </DataFile>
+                            </InputFiles>
+                            <OutputFiles>
+                                <DataFile>
+                                    <Path>..\data\ApacheMessage.txt</Path>
+                                </DataFile>
+                                <DataFile>
+                                    <Path>..\data\AsposeMessage.msg</Path>
+                                </DataFile>
+                                <DataFile>
+                                    <Path>..\data\AsposeMessage.eml</Path>
+                                </DataFile>
+                                <DataFile>
+                                    <Path>..\data\AsposeMessage.emlx</Path>
+                                </DataFile>
+                                <DataFile>
+                                    <Path>..\data\AsposeMessage.mht</Path>
+                                </DataFile>
+                            </OutputFiles>
+                            <Type>Console</Type>
+                        </Example>
+                    </Examples>
+                </Folder>
+                <Folder>
+                    <Title>Working with Headers and Body</Title>
+                    <Description>This folder contain the examples to deal with Email Headers and Body.</Description>
+                    <FolderName>workingwithheadersandbody</FolderName>
+                    <Order>2</Order>
+                    <Examples>
+                        <Example>
+                            <Title>Extract Message Attachments</Title>
+                            <Description>How to extract attachments from Email Messages.</Description>
+                            <FolderName>extractmessageattachments</FolderName>
+                            <Order>1</Order>
+                            <InputFiles>
+                                <DataFile>
+                                    <Path>..\data\message.msg</Path>
+                                </DataFile>
+                            </InputFiles>
+                            <Type>Console</Type>
+                        </Example>
+                        <Example>
+                            <Title>Extract Message Headers</Title>
+                            <Description>How to extract Email message headers.</Description>
+                            <FolderName>extractmessageheaders</FolderName>
+                            <Order>2</Order>
+                            <InputFiles>
+                                <DataFile>
+                                    <Path>..\data\message.msg</Path>
+                                </DataFile>
+                            </InputFiles>
+                            <Type>Console</Type>
+                        </Example>
+                        <Example>
+                            <Title>Extract Message Body</Title>
+                            <Description>How to extract email message body.</Description>
+                            <FolderName>extractmessagebody</FolderName>
+                            <Order>3</Order>
+                            <InputFiles>
+                                <DataFile>
+                                    <Path>..\data\message.msg</Path>
+                                </DataFile>
+                            </InputFiles>
+                            <Type>Console</Type>
+                        </Example>
+                    </Examples>
+                </Folder>
+            </Folders>
+        </Folder>
+    </Folders>
+</Data>
